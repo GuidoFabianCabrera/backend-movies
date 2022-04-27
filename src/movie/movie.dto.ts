@@ -16,12 +16,10 @@ export class CreateMovieDto {
   @ApiProperty()
   readonly duration: string;
 
-  @IsNumber()
   @IsNotEmpty()
   @ApiProperty()
   readonly stars: string;
 
-  @IsNumber()
   @IsNotEmpty()
   @ApiProperty()
   readonly reviewsCount: string;

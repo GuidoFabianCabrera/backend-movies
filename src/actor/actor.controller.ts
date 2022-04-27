@@ -23,8 +23,8 @@ import { RolesGuard } from '../auth/guards/roles.guard'
 import { Role } from '../auth/models/roles.model'
 
 // @UseGuards(JwtAuthGuard)
-@ApiTags('actors')
-@Controller('actors')
+@ApiTags('actor')
+@Controller('actor')
 export class ActorController {
   constructor(private ActorService: ActorService) { }
 
